@@ -1519,3 +1519,28 @@ A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
 A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
 console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
 1611416909281	Marionette	INFO	Stopped listening on port 58899
+1611460965244	geckodriver	INFO	Listening on 127.0.0.1:54324
+1611460967936	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilea6KhKG"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611460986234	Marionette	INFO	Listening on port 54334
+1611460986436	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://erp.lemfix.com/js/layer/3.1/layer.js, line 1173: unreachable code after return statement
+JavaScript warning: http://erp.lemfix.com/js/layer/3.1/layer.js, line 1173: unreachable code after return statement
+JavaScript warning: http://erp.lemfix.com/js/layer/3.1/layer.js, line 1173: unreachable code after return statement
+1611461004732	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+send@http://erp.lemfix.com/js/jquery-1.8.0.min.js:2:85139
+ajax@http://erp.lemfix.com/js/jquery-1.8.0.min.js:2:82575
+initSystemData_depot@http://erp.lemfix.com/js/pages/materials/in_out.js:177:5
+@http://erp.lemfix.com/js/pages/materials/in_out.js:35:3
+k@http://erp.lemfix.com/js/jquery-1.8.0.min.js:2:16961
+fireWith@http://erp.lemfix.com/js/jquery-1.8.0.min.js:2:17719
+ready@http://erp.lemfix.com/js/jquery-1.8.0.min.js:2:12434
+D@http://erp.lemfix.com/js/jquery-1.8.0.min.js:2:9839
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1611461014916	Marionette	INFO	Stopped listening on port 54334
